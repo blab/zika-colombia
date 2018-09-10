@@ -148,61 +148,17 @@
   },
   "geo": {
     "country": {
-      "guatemala": {
-        "latitude": 15.6356088,
-        "longitude": -89.8988086
-      },
-      "usa": {
-        "latitude": 39.7837304,
-        "longitude": -100.4458824
-      },
-      "honduras": {
-        "latitude": 15.0610686,
-        "longitude": -84.5978533
-      },
-      "dominican_republic": {
-        "latitude": 18.50012,
-        "longitude": -69.98857
-      },
-      "ecuador": {
-        "latitude": -1.3397667,
-        "longitude": -79.3666964
-      },
-      "brazil": {
-        "latitude": -10.3333332,
-        "longitude": -53.1999999
-      },
-      "venezuela": {
-        "latitude": 8.0,
-        "longitude": -66.0
-      },
-      "peru": {
-        "latitude": -10.0,
-        "longitude": -75.25
+      "french_guiana": {
+        "latitude": 4.93333,
+        "longitude": -52.33333
       },
       "nicaragua": {
         "latitude": 13.0,
         "longitude": -85.0
       },
-      "cuba": {
-        "latitude": 22.0,
-        "longitude": -79.5
-      },
-      "mexico": {
-        "latitude": 19.4325301,
-        "longitude": -99.1332101
-      },
-      "usvi": {
-        "latitude": 18.3378801,
-        "longitude": -64.8982827
-      },
-      "saint_barthelemy": {
-        "latitude": 17.9049171,
-        "longitude": -62.847207
-      },
-      "guadeloupe": {
-        "latitude": 16.265,
-        "longitude": -61.551
+      "suriname": {
+        "latitude": 4.1413025,
+        "longitude": -56.0771186
       },
       "panama": {
         "latitude": 8.3096067,
@@ -212,25 +168,17 @@
         "latitude": 13.68935,
         "longitude": -89.18718
       },
-      "french_polynesia": {
-        "latitude": -17.6797,
-        "longitude": -149.4068
-      },
-      "martinique": {
-        "latitude": 14.6415,
-        "longitude": -61.0242
-      },
-      "american_samoa": {
-        "latitude": -14.27806,
-        "longitude": -170.7025
-      },
       "haiti": {
         "latitude": 19.1399952,
         "longitude": -72.3570971
       },
-      "suriname": {
-        "latitude": 4.1413025,
-        "longitude": -56.0771186
+      "saint_barthelemy": {
+        "latitude": 17.9049171,
+        "longitude": -62.847207
+      },
+      "guadeloupe": {
+        "latitude": 16.265,
+        "longitude": -61.551
       },
       "colombia": {
         "latitude": 2.893108,
@@ -240,13 +188,65 @@
         "latitude": 18.2459121,
         "longitude": -66.4164147
       },
-      "french_guiana": {
-        "latitude": 4.93333,
-        "longitude": -52.33333
+      "dominican_republic": {
+        "latitude": 18.50012,
+        "longitude": -69.98857
+      },
+      "brazil": {
+        "latitude": -10.3333332,
+        "longitude": -53.1999999
+      },
+      "venezuela": {
+        "latitude": 8.0,
+        "longitude": -66.0
+      },
+      "ecuador": {
+        "latitude": -1.3397667,
+        "longitude": -79.3666964
+      },
+      "mexico": {
+        "latitude": 19.4325301,
+        "longitude": -99.1332101
+      },
+      "usa": {
+        "latitude": 39.7837304,
+        "longitude": -100.4458824
+      },
+      "martinique": {
+        "latitude": 14.6415,
+        "longitude": -61.0242
+      },
+      "american_samoa": {
+        "latitude": -14.27806,
+        "longitude": -170.7025
+      },
+      "cuba": {
+        "latitude": 22.0,
+        "longitude": -79.5
+      },
+      "guatemala": {
+        "latitude": 15.6356088,
+        "longitude": -89.8988086
       },
       "jamaica": {
         "latitude": 18.16667,
         "longitude": -77.25
+      },
+      "peru": {
+        "latitude": -10.0,
+        "longitude": -75.25
+      },
+      "usvi": {
+        "latitude": 18.3378801,
+        "longitude": -64.8982827
+      },
+      "honduras": {
+        "latitude": 15.0610686,
+        "longitude": -84.5978533
+      },
+      "french_polynesia": {
+        "latitude": -17.6797,
+        "longitude": -149.4068
       }
     },
     "region": {
@@ -276,8 +276,8 @@
     "region",
     "authors"
   ],
-  "updated": "07 Sep 2018",
-  "virus_count": 403,
+  "updated": "10 Sep 2018",
+  "virus_count": 393,
   "author_info": {
     "Pettersson et al": {
       "n": 13,
@@ -406,7 +406,7 @@
       "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/"
     },
     "Theze et al": {
-      "n": 57,
+      "n": 54,
       "title": "Tracking Zika virus spread in Central America and Mexico using metagenomic sequencing",
       "journal": "Unpublished",
       "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/"
