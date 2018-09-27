@@ -1,0 +1,17 @@
+name: colombia-python2
+channels:
+- bioconda
+- defaults
+- conda-forge
+dependencies:
+- conda
+- ipykernel
+#- ipython
+#- jupyter_core
+- notebook
+- matplotlib
+- numpy=1.13*
+- pandas
+- python=2.7*
+- seaborn
+- basemap=1.1.0
