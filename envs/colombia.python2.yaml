@@ -15,3 +15,4 @@ dependencies:
 - python=2.7*
 - seaborn
 - basemap=1.1.0
+- basemap-data-hires #for high resolution maps in basemap
