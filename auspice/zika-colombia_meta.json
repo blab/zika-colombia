@@ -26,103 +26,103 @@
       "color_map": [
         [
           "french_polynesia",
-          "#4041C7"
+          "#a16928"
         ],
         [
           "american_samoa",
-          "#3F50CC"
+          "#b38752"
         ],
         [
           "brazil",
-          "#56A0AF"
+          "#1e2c20"
         ],
         [
           "peru",
-          "#5CA7A4"
+          "#2a3e2d"
         ],
         [
           "ecuador",
-          "#63AC99"
+          "#36503a"
         ],
         [
           "colombia",
-          "#6BB18E"
+          "#637a66"
         ],
         [
           "french_guiana",
-          "#73B583"
+          "#778a7a"
         ],
         [
           "suriname",
-          "#7CB878"
+          "#9eaca0"
         ],
         [
           "venezuela",
-          "#86BB6E"
+          "#b1bcb3"
         ],
         [
           "panama",
-          "#A4BE56"
+          "#1c5e70"
         ],
         [
           "nicaragua",
-          "#AFBD4F"
+          "#247990"
         ],
         [
           "honduras",
-          "#B9BC4A"
+          "#2887a1"
         ],
         [
           "el_salvador",
-          "#C2BA46"
+          "#529fb3"
         ],
         [
           "guatemala",
-          "#CCB742"
+          "#7eb7c6"
         ],
         [
           "mexico",
-          "#D3B240"
+          "#a9cfd9"
         ],
         [
           "martinique",
-          "#DAAC3D"
+          "#791a1f"
         ],
         [
           "guadeloupe",
-          "#DFA43B"
+          "#8d1e24"
         ],
         [
           "saint_barthelemy",
-          "#E39B39"
+          "#a12329"
         ],
         [
           "usvi",
-          "#E68F36"
+          "#b5272e"
         ],
         [
           "puerto_rico",
-          "#E68234"
+          "#ca2c34"
         ],
         [
           "jamaica",
-          "#E67431"
+          "#cf4148"
         ],
         [
           "dominican_republic",
-          "#E4632E"
+          "#d4565c"
         ],
         [
           "haiti",
-          "#E1512A"
+          "#d96b70"
         ],
         [
           "cuba",
-          "#DF4027"
+          "#df8085"
         ],
         [
           "usa",
-          "#DC2F24"
+          "#8862a3"
         ]
       ]
     },
@@ -148,97 +148,97 @@
   },
   "geo": {
     "country": {
-      "french_guiana": {
-        "latitude": 4.93333,
-        "longitude": -52.33333
-      },
-      "nicaragua": {
-        "latitude": 13.0,
-        "longitude": -85.0
-      },
-      "suriname": {
-        "latitude": 4.1413025,
-        "longitude": -56.0771186
-      },
-      "panama": {
-        "latitude": 8.3096067,
-        "longitude": -81.3066245
-      },
-      "el_salvador": {
-        "latitude": 13.68935,
-        "longitude": -89.18718
-      },
-      "haiti": {
-        "latitude": 19.1399952,
-        "longitude": -72.3570971
-      },
-      "saint_barthelemy": {
-        "latitude": 17.9049171,
-        "longitude": -62.847207
+      "peru": {
+        "latitude": -10.0,
+        "longitude": -75.25
       },
       "guadeloupe": {
         "latitude": 16.265,
         "longitude": -61.551
       },
-      "colombia": {
-        "latitude": 2.893108,
-        "longitude": -73.7845142
+      "nicaragua": {
+        "latitude": 13.0,
+        "longitude": -85.0
       },
-      "puerto_rico": {
-        "latitude": 18.2459121,
-        "longitude": -66.4164147
-      },
-      "dominican_republic": {
-        "latitude": 18.50012,
-        "longitude": -69.98857
-      },
-      "brazil": {
-        "latitude": -10.3333332,
-        "longitude": -53.1999999
+      "haiti": {
+        "latitude": 19.1399952,
+        "longitude": -72.3570971
       },
       "venezuela": {
         "latitude": 8.0,
         "longitude": -66.0
       },
-      "ecuador": {
-        "latitude": -1.3397667,
-        "longitude": -79.3666964
-      },
-      "mexico": {
-        "latitude": 19.4325301,
-        "longitude": -99.1332101
-      },
-      "usa": {
-        "latitude": 39.7837304,
-        "longitude": -100.4458824
-      },
-      "martinique": {
-        "latitude": 14.6415,
-        "longitude": -61.0242
-      },
-      "american_samoa": {
-        "latitude": -14.27806,
-        "longitude": -170.7025
+      "puerto_rico": {
+        "latitude": 18.2459121,
+        "longitude": -66.4164147
       },
       "cuba": {
         "latitude": 22.0,
         "longitude": -79.5
       },
-      "guatemala": {
-        "latitude": 15.6356088,
-        "longitude": -89.8988086
+      "ecuador": {
+        "latitude": -1.3397667,
+        "longitude": -79.3666964
+      },
+      "colombia": {
+        "latitude": 2.893108,
+        "longitude": -73.7845142
       },
       "jamaica": {
         "latitude": 18.16667,
         "longitude": -77.25
       },
-      "peru": {
-        "latitude": -10.0,
-        "longitude": -75.25
+      "brazil": {
+        "latitude": -10.3333332,
+        "longitude": -53.1999999
+      },
+      "mexico": {
+        "latitude": 19.4325301,
+        "longitude": -99.1332101
+      },
+      "suriname": {
+        "latitude": 4.1413025,
+        "longitude": -56.0771186
+      },
+      "dominican_republic": {
+        "latitude": 18.50012,
+        "longitude": -69.98857
+      },
+      "usa": {
+        "latitude": 39.7837304,
+        "longitude": -100.4458824
+      },
+      "el_salvador": {
+        "latitude": 13.68935,
+        "longitude": -89.18718
       },
       "usvi": {
         "latitude": 18.3378801,
         "longitude": -64.8982827
+      },
+      "guatemala": {
+        "latitude": 15.6356088,
+        "longitude": -89.8988086
+      },
+      "american_samoa": {
+        "latitude": -14.27806,
+        "longitude": -170.7025
+      },
+      "martinique": {
+        "latitude": 14.6415,
+        "longitude": -61.0242
+      },
+      "panama": {
+        "latitude": 8.3096067,
+        "longitude": -81.3066245
+      },
+      "french_guiana": {
+        "latitude": 4.93333,
+        "longitude": -52.33333
+      },
+      "saint_barthelemy": {
+        "latitude": 17.9049171,
+        "longitude": -62.847207
       },
       "honduras": {
         "latitude": 15.0610686,
@@ -250,10 +250,6 @@
       }
     },
     "region": {
-      "south_america": {
-        "latitude": -13.083583,
-        "longitude": -58.470721
-      },
       "oceania": {
         "latitude": -25.0562891,
         "longitude": 152.008576
@@ -261,6 +257,10 @@
       "north_america": {
         "latitude": 28.2367447,
         "longitude": -97.738017
+      },
+      "south_america": {
+        "latitude": -13.083583,
+        "longitude": -58.470721
       }
     }
   },
@@ -276,8 +276,8 @@
     "region",
     "authors"
   ],
-  "updated": "10 Sep 2018",
-  "virus_count": 393,
+  "updated": "02 Oct 2018",
+  "virus_count": 399,
   "author_info": {
     "Pettersson et al": {
       "n": 13,
@@ -310,7 +310,7 @@
       "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/28538734"
     },
     "Naccache et al": {
-      "n": 11,
+      "n": 10,
       "title": "Distinct Zika Virus Lineage in Salvador, Bahia, Brazil",
       "journal": "Emerging Infect. Dis. 22 (10), 1788-1792 (2016)",
       "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/27448188"
