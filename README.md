@@ -33,4 +33,6 @@ Then, visualize the analysis with `nextstrain view auspice`
 
 If you want to customize your analysis, you can do so by editing the Snakefile. The cli provides a dockerized wrapper for Nextstrain Augur and Nextstrain Auspice, so any commands that you could normally give to augur or auspice can be integrated into the Snakefile by editing shell commands and adding params. File extenstions and locations can also be edited by changing paths in the Snakefile.
 
+Note, if you are running the analysis on a Mac, you may have to change the amount of memory that you allocate to Docker. The default can sometimes be too low, which causes `mafft` to fail during the `augur align` step. To get around this, I have raised Docker's memory allocation from 2GB to 8GB. Docker memory allocation can be changed by going to Docker > Preferences > Advanced and toggling up the memory, then applying and restarting.
+
 If you are wondering what commands you can give the different augur executables, you can look at augur help statements. To do so, run `nextstrain shell` to bring up the augur environment. Then explore with `augur --help` or `augur <program> --help`.
