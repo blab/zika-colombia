@@ -8,3 +8,7 @@ data/all_included_accessions\.csv
 \.snakemake/metadata/
 
 \.snakemake/log/
+
+data/colombia-seqs-only-strippedtoref-aligned\.fasta
+
+manuscript/
