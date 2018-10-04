@@ -1,12 +1,14 @@
 ### Consensus genomes
 
-This repo contains fasta files for each of the Colombian Zika genomes that we attempted sequencing on.
+This repo contains fasta files for each of the Colombian Zika genomes that we attempted sequencing on, as well as fasta files for the full Americas phylogeographic analysis.
 
-`ZIKA_COL_good.fasta` contains consensus genomes that have 80% or more unambiguous bases.
+`publishable-zika-fauna-2018-09-06.fasta` is the input file for the full phylogeographic analysis. It contains genomes from other countries in the Americas that we have permission to use in published analyses, as well as the genomes that we generated that had 50% or more genome coverage.
 
-`ZIKA_COL_partial.fasta` contains consensus genomes that have between 50% and 80% unambiguous bases.
+`ZIKA-COL-good.fasta` contains consensus genomes that have 80% or more unambiguous bases.
 
-`ZIKA_COL_poor.fasta` contains the consensus genomes for samples that have less than 50% unambiguous bases. Many of these consensus genomes are entirely N, and we do not use these poor quality genomes in any part of the analysis. They are included here for completeness only.
+`ZIKA-COL-partial.fasta` contains consensus genomes that have between 50% and 80% unambiguous bases.
+
+`ZIKA-COL-poor.fasta` contains the consensus genomes for samples that have less than 50% unambiguous bases. Many of these consensus genomes are entirely N, and we do not use these poor quality genomes in any part of the analysis. They are included here for completeness only.
 
 These consensus genomes were called using [our custom pipeline](https://github.com/blab/zika-seq). More details, as well as all scripts can be found on the zika-seq repo. Briefly however consensus genomes are generated via the following process.
 
