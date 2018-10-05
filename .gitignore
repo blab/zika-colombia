@@ -12,3 +12,7 @@ data/all_included_accessions\.csv
 data/colombia-seqs-only-strippedtoref-aligned\.fasta
 
 manuscript/
+
+supplemental-analysis/\.snakemake/metadata/
+
+supplemental-analysis/\.snakemake/log/
