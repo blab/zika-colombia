@@ -31,7 +31,15 @@ Run the analysis with `nextstrain build .`
 
 Then, visualize the analysis with `nextstrain view auspice`
 
-If you want to customize your analysis, you can do so by editing the Snakefile. The cli provides a dockerized wrapper for Nextstrain Augur and Nextstrain Auspice, so any commands that you could normally give to augur or auspice can be integrated into the Snakefile by editing shell commands and adding params. File extenstions and locations can also be edited by changing paths in the Snakefile.
+_side note_ In some of my figures I have a map inset that is from nextstrain, but lacks the bezier curves that normally show transmission. To make these figures I did the following.
+
+1. clone the auspice repo.
+2. move the files that get put into the `zika-colombia/auspice` into `auspice/data`.
+3. Comment out [these lines](https://github.com/nextstrain/auspice/blob/master/src/components/map/mapHelpers.js#L129-L151) in the mapHelpers.js script that are responsible for plotting the Bezier curves.
+4. Check out your build by running `npm start` from the `auspice` directory.
+5. Go check out the build at http://localhost:4000/local/zika.
+
+If you want to customize your own analysis, you can do so by editing the Snakefile. The cli provides a dockerized wrapper for Nextstrain Augur and Nextstrain Auspice, so any commands that you could normally give to augur or auspice can be integrated into the Snakefile by editing shell commands and adding params. File extenstions and locations can also be edited by changing paths in the Snakefile.
 
 Note, if you are running the analysis on a Mac, you may have to change the amount of memory that you allocate to Docker. The default can sometimes be too low, which causes `mafft` to fail during the `augur align` step. To get around this, I have raised Docker's memory allocation from 2GB to 8GB. Docker memory allocation can be changed by going to Docker > Preferences > Advanced and toggling up the memory, then applying and restarting.
 
