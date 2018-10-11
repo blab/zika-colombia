@@ -10,6 +10,24 @@ This repo contains fasta files for each of the Colombian Zika genomes that we at
 
 `ZIKA-COL-poor.fasta` contains the consensus genomes for samples that have less than 50% unambiguous bases. Many of these consensus genomes are entirely N, and we do not use these poor quality genomes in any part of the analysis. They are included here for completeness only.
 
+The fasta headers contain the information about the samples. For example, here's a header:
+
+`>COL/FH16/2016|COL16|2016-06-22|colombia|valle_del_cauca|cali|minion|1d_chemistry|six_plex|stringent_porechop_demux|nanopolished|good`
+
+The fields are separated by pipes, where all headers have this information in the same order:
+
+1. Strain name.
+2. Bedford lab identifier for the sample.
+3. Sampling date, in YYYY-MM-DD format.
+4. Country of sampling.
+5. Department of sampling.
+6. Municipality of sampling.
+7. Oxford Nanopore kit chemistry that was used for library prep.
+8. How many genomes were multiplexed on a single run (usually this is 6, but sometimes it can be 12).
+9. How strict porechop was during demultiplexing (stringent is the strictest).
+10. Whether or not the consensus genome was nanopolished to perform error correction (options are nanopolished or not_nanopolished).
+11. Quality of the genome (options are good, partial, or poor).
+
 These consensus genomes were called using [our custom pipeline](https://github.com/blab/zika-seq). More details, as well as all scripts can be found on the zika-seq repo. Briefly however consensus genomes are generated via the following process.
 
 1. MinION signal-level data is basecalled using Albacore.
