@@ -5,21 +5,21 @@ C:	south_america
 D:	?
 
 
-Substitution rate (mu): 22.522139
+Substitution rate (mu): 24.77213
 
 Equilibrium frequencies (pi_i):
-  A: 0.2872
-  B: 0.237
-  C: 0.4757
+  A: 0.2982
+  B: 0.2803
+  C: 0.4216
 
 Symmetrized rates from j->i (W_ij):
 	A	B	C
-  A	0	0.8792	2.4211
-  B	0.8792	0	0.9694
-  C	2.4211	0.9694	0
+  A	0	0.8713	2.495
+  B	0.8713	0	0.9613
+  C	2.495	0.9613	0
 
 Actual rates from j->i (Q_ij):
 	A	B	C
-  A	0	0.2525	0.6954
-  B	0.2084	0	0.2298
-  C	1.1518	0.4612	0
+  A	0	0.2598	0.7439
+  B	0.2442	0	0.2694
+  C	1.0518	0.4052	0
