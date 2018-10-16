@@ -5,7 +5,7 @@ rule all:
 
 rule files:
     params:
-        input_fasta = "data/publishable-zika-fauna-2018-09-06.fasta",
+        input_fasta = "data/publishable-zika-fauna-2018-10-15.fasta",
         dropped_strains = "config/dropped_strains.txt",
         reference = "config/zika_outgroup.gb",
         colors = "config/colors.tsv",
