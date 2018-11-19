@@ -148,66 +148,6 @@
   },
   "geo": {
     "country": {
-      "guadeloupe": {
-        "latitude": 16.265,
-        "longitude": -61.551
-      },
-      "french_guiana": {
-        "latitude": 4.93333,
-        "longitude": -52.33333
-      },
-      "saint_barthelemy": {
-        "latitude": 17.9049171,
-        "longitude": -62.847207
-      },
-      "suriname": {
-        "latitude": 4.1413025,
-        "longitude": -56.0771186
-      },
-      "martinique": {
-        "latitude": 14.6415,
-        "longitude": -61.0242
-      },
-      "honduras": {
-        "latitude": 15.0610686,
-        "longitude": -84.5978533
-      },
-      "colombia": {
-        "latitude": 2.893108,
-        "longitude": -73.7845142
-      },
-      "cuba": {
-        "latitude": 22.0,
-        "longitude": -79.5
-      },
-      "guatemala": {
-        "latitude": 15.6356088,
-        "longitude": -89.8988086
-      },
-      "peru": {
-        "latitude": -10.0,
-        "longitude": -75.25
-      },
-      "nicaragua": {
-        "latitude": 13.0,
-        "longitude": -85.0
-      },
-      "usa": {
-        "latitude": 39.7837304,
-        "longitude": -100.4458824
-      },
-      "el_salvador": {
-        "latitude": 13.68935,
-        "longitude": -89.18718
-      },
-      "mexico": {
-        "latitude": 19.4325301,
-        "longitude": -99.1332101
-      },
-      "panama": {
-        "latitude": 8.3096067,
-        "longitude": -81.3066245
-      },
       "dominican_republic": {
         "latitude": 18.50012,
         "longitude": -69.98857
@@ -216,29 +156,89 @@
         "latitude": 18.2459121,
         "longitude": -66.4164147
       },
-      "haiti": {
-        "latitude": 19.1399952,
-        "longitude": -72.3570971
+      "honduras": {
+        "latitude": 15.0610686,
+        "longitude": -84.5978533
+      },
+      "usvi": {
+        "latitude": 18.3378801,
+        "longitude": -64.8982827
+      },
+      "el_salvador": {
+        "latitude": 13.68935,
+        "longitude": -89.18718
+      },
+      "nicaragua": {
+        "latitude": 13.0,
+        "longitude": -85.0
+      },
+      "mexico": {
+        "latitude": 19.4325301,
+        "longitude": -99.1332101
+      },
+      "martinique": {
+        "latitude": 14.6415,
+        "longitude": -61.0242
+      },
+      "colombia": {
+        "latitude": 2.893108,
+        "longitude": -73.7845142
+      },
+      "suriname": {
+        "latitude": 4.1413025,
+        "longitude": -56.0771186
+      },
+      "saint_barthelemy": {
+        "latitude": 17.9049171,
+        "longitude": -62.847207
+      },
+      "usa": {
+        "latitude": 39.7837304,
+        "longitude": -100.4458824
       },
       "american_samoa": {
         "latitude": -14.27806,
         "longitude": -170.7025
       },
-      "french_polynesia": {
-        "latitude": -17.6797,
-        "longitude": -149.4068
+      "jamaica": {
+        "latitude": 18.16667,
+        "longitude": -77.25
       },
       "ecuador": {
         "latitude": -1.3397667,
         "longitude": -79.3666964
       },
-      "jamaica": {
-        "latitude": 18.16667,
-        "longitude": -77.25
+      "french_guiana": {
+        "latitude": 4.93333,
+        "longitude": -52.33333
       },
-      "usvi": {
-        "latitude": 18.3378801,
-        "longitude": -64.8982827
+      "haiti": {
+        "latitude": 19.1399952,
+        "longitude": -72.3570971
+      },
+      "guadeloupe": {
+        "latitude": 16.265,
+        "longitude": -61.551
+      },
+      "cuba": {
+        "latitude": 22.0,
+        "longitude": -79.5
+      },
+      "panama": {
+        "latitude": 8.3096067,
+        "longitude": -81.3066245
+      },
+      "french_polynesia": {
+        "latitude": -17.6797,
+        "longitude": -149.4068
+      },
+      "peru": {
+        "latitude": -10.0,
+        "longitude": -75.25
+      },
+      "guatemala": {
+        "latitude": 15.6356088,
+        "longitude": -89.8988086
       },
       "brazil": {
         "latitude": -10.3333332,
@@ -250,10 +250,6 @@
       }
     },
     "region": {
-      "oceania": {
-        "latitude": -25.0562891,
-        "longitude": 152.008576
-      },
       "south_america": {
         "latitude": -13.083583,
         "longitude": -58.470721
@@ -261,6 +257,10 @@
       "north_america": {
         "latitude": 28.2367447,
         "longitude": -97.738017
+      },
+      "oceania": {
+        "latitude": -25.0562891,
+        "longitude": 152.008576
       }
     }
   },
@@ -268,16 +268,16 @@
     "mapTriplicate": true
   },
   "maintainer": [
-    "Trevor Bedford",
-    "http://bedford.io/team/trevor-bedford/"
+    "Alli Black",
+    "https://bedford.io/team/allison-black/"
   ],
   "filters": [
     "country",
     "region",
     "authors"
   ],
-  "updated": "15 Oct 2018",
-  "virus_count": 386,
+  "updated": "19 Nov 2018",
+  "virus_count": 360,
   "author_info": {
     "Pettersson": {
       "n": 13
@@ -311,9 +311,6 @@
     },
     "Leguia": {
       "n": 6
-    },
-    "Pickett": {
-      "n": 37
     },
     "Lednicky": {
       "n": 2
