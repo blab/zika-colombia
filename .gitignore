@@ -16,3 +16,27 @@ manuscript/
 supplemental-analysis/\.snakemake/metadata/
 
 supplemental-analysis/\.snakemake/log/
+
+*.ipynb_checkpoints
+.dropbox
+.DS_Store
+environment*
+*.p
+\.Icon
+\.swp
+\.Icon
+\.swp
+Icon?
+*.gz
+*.fls
+*.fdb_latexmk
+*.pyc
+
+# LaTeX intermediaries #
+########################
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.pdfsync
