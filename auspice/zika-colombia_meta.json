@@ -1,18 +1,203 @@
 {
-  "title": "Real-time tracking of Zika virus evolution",
+  "annotations": {
+    "2K": {
+      "end": 6897,
+      "start": 6828,
+      "strand": 1
+    },
+    "CA": {
+      "end": 456,
+      "start": 90,
+      "strand": 1
+    },
+    "ENV": {
+      "end": 2472,
+      "start": 960,
+      "strand": 1
+    },
+    "MP": {
+      "end": 960,
+      "start": 735,
+      "strand": 1
+    },
+    "NS1": {
+      "end": 3528,
+      "start": 2472,
+      "strand": 1
+    },
+    "NS2A": {
+      "end": 4206,
+      "start": 3528,
+      "strand": 1
+    },
+    "NS2B": {
+      "end": 4596,
+      "start": 4206,
+      "strand": 1
+    },
+    "NS3": {
+      "end": 6447,
+      "start": 4596,
+      "strand": 1
+    },
+    "NS4A": {
+      "end": 6828,
+      "start": 6447,
+      "strand": 1
+    },
+    "NS4B": {
+      "end": 7650,
+      "start": 6897,
+      "strand": 1
+    },
+    "NS5": {
+      "end": 10359,
+      "start": 7650,
+      "strand": 1
+    },
+    "PRO": {
+      "end": 735,
+      "start": 456,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 10769,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {
+    "Atkinson": {
+      "n": 1
+    },
+    "Azevedo": {
+      "n": 4
+    },
+    "Baronti": {
+      "n": 1
+    },
+    "Barrows": {
+      "n": 1
+    },
+    "Barzon": {
+      "n": 2
+    },
+    "Black": {
+      "n": 41
+    },
+    "Blohm": {
+      "n": 2
+    },
+    "Bonaldo": {
+      "n": 2
+    },
+    "Boukadida": {
+      "n": 1
+    },
+    "Calvet": {
+      "n": 1
+    },
+    "Chiu": {
+      "n": 2
+    },
+    "Cunha": {
+      "n": 1
+    },
+    "Deng": {
+      "n": 3
+    },
+    "Donald": {
+      "n": 1
+    },
+    "Driggers": {
+      "n": 1
+    },
+    "Enfissi": {
+      "n": 2
+    },
+    "Faria": {
+      "n": 48
+    },
+    "Giovanetti": {
+      "n": 1
+    },
+    "Grubaugh": {
+      "n": 44
+    },
+    "Iovine": {
+      "n": 1
+    },
+    "Karan": {
+      "n": 8
+    },
+    "Lanciotti": {
+      "n": 7
+    },
+    "Lasala-Sanchez": {
+      "n": 1
+    },
+    "Lednicky": {
+      "n": 2
+    },
+    "Leguia": {
+      "n": 6
+    },
+    "Li": {
+      "n": 1
+    },
+    "Marquez": {
+      "n": 2
+    },
+    "Metsky": {
+      "n": 83
+    },
+    "Mlakar": {
+      "n": 1
+    },
+    "Murray": {
+      "n": 1
+    },
+    "Naccache": {
+      "n": 6
+    },
+    "Pettersson": {
+      "n": 13
+    },
+    "Piorkowski": {
+      "n": 1
+    },
+    "Quick": {
+      "n": 5
+    },
+    "Shabman": {
+      "n": 16
+    },
+    "Swaminathan": {
+      "n": 1
+    },
+    "Tabata": {
+      "n": 2
+    },
+    "Teixeira": {
+      "n": 1
+    },
+    "Theze": {
+      "n": 47
+    },
+    "Troesemeier": {
+      "n": 1
+    },
+    "Tsetsarkin": {
+      "n": 1
+    },
+    "Wu": {
+      "n": 3
+    },
+    "van": {
+      "n": 1
+    }
+  },
   "color_options": {
-    "gt": {
-      "menuItem": "genotype",
-      "legendTitle": "Genotype",
-      "type": "discrete",
-      "key": "genotype"
-    },
-    "num_date": {
-      "menuItem": "date",
-      "legendTitle": "Sampling date",
-      "type": "continuous",
-      "key": "num_date"
-    },
     "authors": {
       "key": "authors",
       "legendTitle": "Authors",
@@ -20,9 +205,6 @@
       "type": "discrete"
     },
     "country": {
-      "legendTitle": "country",
-      "menuItem": "country",
-      "key": "country",
       "color_map": [
         [
           "french_polynesia",
@@ -124,12 +306,24 @@
           "usa",
           "#8862a3"
         ]
-      ]
+      ],
+      "key": "country",
+      "legendTitle": "country",
+      "menuItem": "country"
+    },
+    "gt": {
+      "key": "genotype",
+      "legendTitle": "Genotype",
+      "menuItem": "genotype",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
     },
     "region": {
-      "legendTitle": "region",
-      "menuItem": "region",
-      "key": "region",
       "color_map": [
         [
           "oceania",
@@ -143,106 +337,117 @@
           "north_america",
           "#DC2F24"
         ]
-      ]
+      ],
+      "key": "region",
+      "legendTitle": "region",
+      "menuItem": "region"
     }
   },
+  "defaults": {
+    "mapTriplicate": true
+  },
+  "filters": [
+    "country",
+    "region",
+    "authors"
+  ],
   "geo": {
     "country": {
-      "dominican_republic": {
-        "latitude": 18.50012,
-        "longitude": -69.98857
+      "american_samoa": {
+        "latitude": -14.27806,
+        "longitude": -170.7025
       },
-      "puerto_rico": {
-        "latitude": 18.2459121,
-        "longitude": -66.4164147
-      },
-      "honduras": {
-        "latitude": 15.0610686,
-        "longitude": -84.5978533
-      },
-      "usvi": {
-        "latitude": 18.3378801,
-        "longitude": -64.8982827
-      },
-      "el_salvador": {
-        "latitude": 13.68935,
-        "longitude": -89.18718
-      },
-      "nicaragua": {
-        "latitude": 13.0,
-        "longitude": -85.0
-      },
-      "mexico": {
-        "latitude": 19.4325301,
-        "longitude": -99.1332101
-      },
-      "martinique": {
-        "latitude": 14.6415,
-        "longitude": -61.0242
+      "brazil": {
+        "latitude": -10.3333332,
+        "longitude": -53.1999999
       },
       "colombia": {
         "latitude": 2.893108,
         "longitude": -73.7845142
       },
-      "suriname": {
-        "latitude": 4.1413025,
-        "longitude": -56.0771186
+      "cuba": {
+        "latitude": 22.0,
+        "longitude": -79.5
       },
-      "saint_barthelemy": {
-        "latitude": 17.9049171,
-        "longitude": -62.847207
-      },
-      "usa": {
-        "latitude": 39.7837304,
-        "longitude": -100.4458824
-      },
-      "american_samoa": {
-        "latitude": -14.27806,
-        "longitude": -170.7025
-      },
-      "jamaica": {
-        "latitude": 18.16667,
-        "longitude": -77.25
+      "dominican_republic": {
+        "latitude": 18.50012,
+        "longitude": -69.98857
       },
       "ecuador": {
         "latitude": -1.3397667,
         "longitude": -79.3666964
       },
+      "el_salvador": {
+        "latitude": 13.68935,
+        "longitude": -89.18718
+      },
       "french_guiana": {
         "latitude": 4.93333,
         "longitude": -52.33333
-      },
-      "haiti": {
-        "latitude": 19.1399952,
-        "longitude": -72.3570971
-      },
-      "guadeloupe": {
-        "latitude": 16.265,
-        "longitude": -61.551
-      },
-      "cuba": {
-        "latitude": 22.0,
-        "longitude": -79.5
-      },
-      "panama": {
-        "latitude": 8.3096067,
-        "longitude": -81.3066245
       },
       "french_polynesia": {
         "latitude": -17.6797,
         "longitude": -149.4068
       },
-      "peru": {
-        "latitude": -10.0,
-        "longitude": -75.25
+      "guadeloupe": {
+        "latitude": 16.265,
+        "longitude": -61.551
       },
       "guatemala": {
         "latitude": 15.6356088,
         "longitude": -89.8988086
       },
-      "brazil": {
-        "latitude": -10.3333332,
-        "longitude": -53.1999999
+      "haiti": {
+        "latitude": 19.1399952,
+        "longitude": -72.3570971
+      },
+      "honduras": {
+        "latitude": 15.0610686,
+        "longitude": -84.5978533
+      },
+      "jamaica": {
+        "latitude": 18.16667,
+        "longitude": -77.25
+      },
+      "martinique": {
+        "latitude": 14.6415,
+        "longitude": -61.0242
+      },
+      "mexico": {
+        "latitude": 19.4325301,
+        "longitude": -99.1332101
+      },
+      "nicaragua": {
+        "latitude": 13.0,
+        "longitude": -85.0
+      },
+      "panama": {
+        "latitude": 8.3096067,
+        "longitude": -81.3066245
+      },
+      "peru": {
+        "latitude": -10.0,
+        "longitude": -75.25
+      },
+      "puerto_rico": {
+        "latitude": 18.2459121,
+        "longitude": -66.4164147
+      },
+      "saint_barthelemy": {
+        "latitude": 17.9049171,
+        "longitude": -62.847207
+      },
+      "suriname": {
+        "latitude": 4.1413025,
+        "longitude": -56.0771186
+      },
+      "usa": {
+        "latitude": 39.7837304,
+        "longitude": -100.4458824
+      },
+      "usvi": {
+        "latitude": 18.3378801,
+        "longitude": -64.8982827
       },
       "venezuela": {
         "latitude": 8.0,
@@ -250,10 +455,6 @@
       }
     },
     "region": {
-      "south_america": {
-        "latitude": -13.083583,
-        "longitude": -58.470721
-      },
       "north_america": {
         "latitude": 28.2367447,
         "longitude": -97.738017
@@ -261,224 +462,23 @@
       "oceania": {
         "latitude": -25.0562891,
         "longitude": 152.008576
+      },
+      "south_america": {
+        "latitude": -13.083583,
+        "longitude": -58.470721
       }
     }
-  },
-  "defaults": {
-    "mapTriplicate": true
   },
   "maintainer": [
     "Alli Black",
     "https://bedford.io/team/allison-black/"
   ],
-  "filters": [
-    "country",
-    "region",
-    "authors"
-  ],
-  "updated": "19 Nov 2018",
-  "virus_count": 360,
-  "author_info": {
-    "Pettersson": {
-      "n": 13
-    },
-    "Black": {
-      "n": 41
-    },
-    "Shabman": {
-      "n": 16
-    },
-    "Grubaugh": {
-      "n": 44
-    },
-    "Metsky": {
-      "n": 83
-    },
-    "Naccache": {
-      "n": 6
-    },
-    "Azevedo": {
-      "n": 4
-    },
-    "Faria": {
-      "n": 48
-    },
-    "Donald": {
-      "n": 1
-    },
-    "Calvet": {
-      "n": 1
-    },
-    "Leguia": {
-      "n": 6
-    },
-    "Lednicky": {
-      "n": 2
-    },
-    "Quick": {
-      "n": 5
-    },
-    "Lasala-Sanchez": {
-      "n": 1
-    },
-    "Karan": {
-      "n": 8
-    },
-    "Barzon": {
-      "n": 2
-    },
-    "Marquez": {
-      "n": 2
-    },
-    "Driggers": {
-      "n": 1
-    },
-    "Lanciotti": {
-      "n": 7
-    },
-    "Wu": {
-      "n": 3
-    },
-    "Theze": {
-      "n": 47
-    },
-    "Deng": {
-      "n": 3
-    },
-    "Li": {
-      "n": 1
-    },
-    "Baronti": {
-      "n": 1
-    },
-    "Murray": {
-      "n": 1
-    },
-    "Teixeira": {
-      "n": 1
-    },
-    "Iovine": {
-      "n": 1
-    },
-    "Boukadida": {
-      "n": 1
-    },
-    "Barrows": {
-      "n": 1
-    },
-    "Piorkowski": {
-      "n": 1
-    },
-    "Mlakar": {
-      "n": 1
-    },
-    "Tabata": {
-      "n": 2
-    },
-    "Troesemeier": {
-      "n": 1
-    },
-    "Atkinson": {
-      "n": 1
-    },
-    "Tsetsarkin": {
-      "n": 1
-    },
-    "Bonaldo": {
-      "n": 2
-    },
-    "van": {
-      "n": 1
-    },
-    "Cunha": {
-      "n": 1
-    },
-    "Giovanetti": {
-      "n": 1
-    },
-    "Swaminathan": {
-      "n": 1
-    },
-    "Enfissi": {
-      "n": 2
-    },
-    "Blohm": {
-      "n": 2
-    },
-    "Chiu": {
-      "n": 2
-    }
-  },
-  "annotations": {
-    "nuc": {
-      "start": 1,
-      "end": 10769,
-      "strand": 1
-    },
-    "CA": {
-      "start": 90,
-      "end": 456,
-      "strand": 1
-    },
-    "PRO": {
-      "start": 456,
-      "end": 735,
-      "strand": 1
-    },
-    "MP": {
-      "start": 735,
-      "end": 960,
-      "strand": 1
-    },
-    "ENV": {
-      "start": 960,
-      "end": 2472,
-      "strand": 1
-    },
-    "NS1": {
-      "start": 2472,
-      "end": 3528,
-      "strand": 1
-    },
-    "NS2A": {
-      "start": 3528,
-      "end": 4206,
-      "strand": 1
-    },
-    "NS2B": {
-      "start": 4206,
-      "end": 4596,
-      "strand": 1
-    },
-    "NS3": {
-      "start": 4596,
-      "end": 6447,
-      "strand": 1
-    },
-    "NS4A": {
-      "start": 6447,
-      "end": 6828,
-      "strand": 1
-    },
-    "2K": {
-      "start": 6828,
-      "end": 6897,
-      "strand": 1
-    },
-    "NS4B": {
-      "start": 6897,
-      "end": 7650,
-      "strand": 1
-    },
-    "NS5": {
-      "start": 7650,
-      "end": 10359,
-      "strand": 1
-    }
-  },
   "panels": [
     "tree",
     "map",
     "entropy"
-  ]
+  ],
+  "title": "Real-time tracking of Zika virus evolution",
+  "updated": "09 Feb 2019",
+  "virus_count": 360
 }
