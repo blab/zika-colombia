@@ -114,7 +114,7 @@ rule refine:
         coalescent = "opt",
         date_inference = "marginal",
         clock_filter_iqd = 4,
-        root = "SZ_WIV01 1_0117_PF"
+        root = "1_0049_PF"
     shell:
         """
         augur refine \
