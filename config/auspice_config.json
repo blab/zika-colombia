@@ -22,6 +22,8 @@
     "country": {
     },
     "region": {
+    },
+    "division": {
     }
   },
   "geo": [
@@ -30,7 +32,7 @@
   ],
   "defaults": {
     "mapTriplicate": true
-  },  
+  },
   "maintainer": [
     "Alli Black",
     "https://bedford.io/team/allison-black/"
