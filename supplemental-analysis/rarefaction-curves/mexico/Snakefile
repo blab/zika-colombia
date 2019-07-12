@@ -1,0 +1,29 @@
+NUM_SEQS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+TRIAL_NUM = [1, 2, 3, 4, 5]
+
+rule all:
+    input:
+        auspice_tree = expand("auspice/mex_seqs_{num_seqs}_trial_{trial_num}_tree.json", num_seqs=NUM_SEQS),
+        auspice_meta = expand("auspice/mex_seqs_{num_seqs}_trial_{trial_num}_meta.json", trial_num=TRIAL_NUM)
+
+rule files:
+    params:
+        mexican_seqs_fasta = "data/mexico_{num_seqs}_seqs/mex_{num_seqs}_seqs_trial_{trial_num}.fasta",
+        background_seqs_fasta = MAKE THIS FILE!
+        dropped_strains = "config/dropped_strains.txt",
+        included_strains = "config/include_strains.txt",
+        reference = "config/zika_outgroup.gb",
+        colors = "config/colors.tsv",
+        auspice_config = "config/auspice_config.json"
+
+rule concatenate_fastas:
+    message: "concatenating subsampled mexican sequences with Americas-wide background sequences."
+    input:
+        mexican_sequences = files.mexican_seqs_fasta
+        background_sequences = files.background_seqs_fasta
+    output:
+        full_fasta = "results/mex_and_background_seqs.fasta"
+    shell:
+        """
+        cat input.mexican_sequences input.background_sequences > output.full_fasta
+        """
