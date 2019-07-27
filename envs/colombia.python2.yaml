@@ -1,18 +1,17 @@
-name: colombia-python2
+name: colombia_analysis
 channels:
 - bioconda
 - defaults
 - conda-forge
 dependencies:
+- python=3*
+- augur
 - conda
 - ipykernel
-#- ipython
-#- jupyter_core
 - notebook
 - matplotlib
 - numpy=1.13*
 - pandas
-- python=2.7*
-- seaborn
-- basemap=1.1.0
+- basemap
 - basemap-data-hires #for high resolution maps in basemap
+- snakemake
