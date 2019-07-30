@@ -5,7 +5,6 @@ channels:
 - conda-forge
 dependencies:
 - python=3*
-- augur
 - conda
 - ipykernel
 - notebook
@@ -15,3 +14,5 @@ dependencies:
 - basemap
 - basemap-data-hires #for high resolution maps in basemap
 - snakemake
+- pip:
+  - nextstrain-augur
