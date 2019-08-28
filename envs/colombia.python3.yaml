@@ -16,3 +16,4 @@ dependencies:
 - snakemake
 - pip:
   - nextstrain-augur
+  - nextstrain-cli
