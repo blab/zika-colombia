@@ -1,0 +1,559 @@
+{
+  "author_info": {
+    "Atkinson": {
+      "n": 1
+    },
+    "Azevedo": {
+      "n": 4
+    },
+    "Baronti": {
+      "n": 1
+    },
+    "Barrows": {
+      "n": 1
+    },
+    "Barzon": {
+      "n": 2
+    },
+    "Black": {
+      "n": 41
+    },
+    "Blohm": {
+      "n": 2
+    },
+    "Bonaldo": {
+      "n": 2
+    },
+    "Boukadida": {
+      "n": 1
+    },
+    "Calvet": {
+      "n": 1
+    },
+    "Chiu": {
+      "n": 1
+    },
+    "Cunha": {
+      "n": 1
+    },
+    "Deng": {
+      "n": 3
+    },
+    "Donald": {
+      "n": 1
+    },
+    "Driggers": {
+      "n": 1
+    },
+    "Enfissi": {
+      "n": 2
+    },
+    "Faria": {
+      "n": 47
+    },
+    "Giovanetti": {
+      "n": 1
+    },
+    "Grubaugh": {
+      "n": 44
+    },
+    "Iovine": {
+      "n": 1
+    },
+    "Karan": {
+      "n": 7
+    },
+    "Lanciotti": {
+      "n": 6
+    },
+    "Lasala-Sanchez": {
+      "n": 1
+    },
+    "Lednicky": {
+      "n": 2
+    },
+    "Leguia": {
+      "n": 6
+    },
+    "Li": {
+      "n": 1
+    },
+    "Marquez": {
+      "n": 2
+    },
+    "Metsky": {
+      "n": 83
+    },
+    "Mlakar": {
+      "n": 1
+    },
+    "Murray": {
+      "n": 1
+    },
+    "Naccache": {
+      "n": 6
+    },
+    "Pettersson": {
+      "n": 13
+    },
+    "Piorkowski": {
+      "n": 1
+    },
+    "Quick": {
+      "n": 5
+    },
+    "Shabman": {
+      "n": 13
+    },
+    "Tabata": {
+      "n": 2
+    },
+    "Tan": {
+      "n": 10
+    },
+    "Teixeira": {
+      "n": 1
+    },
+    "Theze": {
+      "n": 34
+    },
+    "Troesemeier": {
+      "n": 1
+    },
+    "Tsetsarkin": {
+      "n": 1
+    },
+    "Wu": {
+      "n": 3
+    },
+    "van": {
+      "n": 1
+    }
+  },
+  "color_options": {
+    "authors": {
+      "key": "authors",
+      "legendTitle": "Authors",
+      "menuItem": "authors",
+      "type": "discrete"
+    },
+    "country": {
+      "color_map": [
+        [
+          "french_polynesia",
+          "#a16928"
+        ],
+        [
+          "american_samoa",
+          "#b38752"
+        ],
+        [
+          "brazil",
+          "#1e2c20"
+        ],
+        [
+          "peru",
+          "#2a3e2d"
+        ],
+        [
+          "ecuador",
+          "#36503a"
+        ],
+        [
+          "colombia",
+          "#637a66"
+        ],
+        [
+          "french_guiana",
+          "#778a7a"
+        ],
+        [
+          "suriname",
+          "#9eaca0"
+        ],
+        [
+          "venezuela",
+          "#b1bcb3"
+        ],
+        [
+          "panama",
+          "#1c5e70"
+        ],
+        [
+          "nicaragua",
+          "#247990"
+        ],
+        [
+          "honduras",
+          "#2887a1"
+        ],
+        [
+          "el_salvador",
+          "#529fb3"
+        ],
+        [
+          "guatemala",
+          "#7eb7c6"
+        ],
+        [
+          "mexico",
+          "#a9cfd9"
+        ],
+        [
+          "martinique",
+          "#791a1f"
+        ],
+        [
+          "guadeloupe",
+          "#8d1e24"
+        ],
+        [
+          "saint_barthelemy",
+          "#a12329"
+        ],
+        [
+          "usvi",
+          "#b5272e"
+        ],
+        [
+          "puerto_rico",
+          "#ca2c34"
+        ],
+        [
+          "jamaica",
+          "#cf4148"
+        ],
+        [
+          "dominican_republic",
+          "#d4565c"
+        ],
+        [
+          "haiti",
+          "#d96b70"
+        ],
+        [
+          "cuba",
+          "#df8085"
+        ],
+        [
+          "usa",
+          "#8862a3"
+        ]
+      ],
+      "key": "country",
+      "legendTitle": "country",
+      "menuItem": "country"
+    },
+    "division": {
+      "color_map": [
+        [
+          "french_polynesia",
+          "#D3D3D3"
+        ],
+        [
+          "american_samoa",
+          "#D3D3D3"
+        ],
+        [
+          "brazil",
+          "#D3D3D3"
+        ],
+        [
+          "peru",
+          "#D3D3D3"
+        ],
+        [
+          "ecuador",
+          "#D3D3D3"
+        ],
+        [
+          "french_guiana",
+          "#D3D3D3"
+        ],
+        [
+          "suriname",
+          "#D3D3D3"
+        ],
+        [
+          "venezuela",
+          "#D3D3D3"
+        ],
+        [
+          "panama",
+          "#D3D3D3"
+        ],
+        [
+          "nicaragua",
+          "#D3D3D3"
+        ],
+        [
+          "honduras",
+          "#D3D3D3"
+        ],
+        [
+          "el_salvador",
+          "#D3D3D3"
+        ],
+        [
+          "guatemala",
+          "#D3D3D3"
+        ],
+        [
+          "mexico",
+          "#D3D3D3"
+        ],
+        [
+          "martinique",
+          "#D3D3D3"
+        ],
+        [
+          "guadeloupe",
+          "#D3D3D3"
+        ],
+        [
+          "saint_barthelemy",
+          "#D3D3D3"
+        ],
+        [
+          "puerto_rico",
+          "#D3D3D3"
+        ],
+        [
+          "jamaica",
+          "#D3D3D3"
+        ],
+        [
+          "dominican_republic",
+          "#D3D3D3"
+        ],
+        [
+          "haiti",
+          "#D3D3D3"
+        ],
+        [
+          "cuba",
+          "#D3D3D3"
+        ],
+        [
+          "usa",
+          "#D3D3D3"
+        ],
+        [
+          "saint_croix",
+          "#D3D3D3"
+        ],
+        [
+          "saint_john",
+          "#D3D3D3"
+        ],
+        [
+          "saint_thomas",
+          "#D3D3D3"
+        ],
+        [
+          "unknown",
+          "#686868"
+        ],
+        [
+          "santander",
+          "#fc4e2a"
+        ],
+        [
+          "tolima",
+          "#feb24c"
+        ],
+        [
+          "cordoba",
+          "#e31a1c"
+        ],
+        [
+          "valle_del_cauca",
+          "#fed976"
+        ],
+        [
+          "atlantico",
+          "#b10026"
+        ],
+        [
+          "risaralda",
+          "#fd8d3c"
+        ],
+        [
+          "huila",
+          "#ffffb2"
+        ]
+      ],
+      "key": "division",
+      "legendTitle": "division",
+      "menuItem": "division"
+    },
+    "gt": {
+      "key": "genotype",
+      "legendTitle": "Genotype",
+      "menuItem": "genotype",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "region": {
+      "color_map": [
+        [
+          "oceania",
+          "#88BB6C"
+        ],
+        [
+          "south_america",
+          "#E56C2F"
+        ],
+        [
+          "north_america",
+          "#DC2F24"
+        ]
+      ],
+      "key": "region",
+      "legendTitle": "region",
+      "menuItem": "region"
+    }
+  },
+  "defaults": {
+    "mapTriplicate": true
+  },
+  "filters": [
+    "country",
+    "region",
+    "authors"
+  ],
+  "geo": {
+    "country": {
+      "american_samoa": {
+        "latitude": -14.27806,
+        "longitude": -170.7025
+      },
+      "brazil": {
+        "latitude": -10.3333332,
+        "longitude": -53.1999999
+      },
+      "colombia": {
+        "latitude": 2.893108,
+        "longitude": -73.7845142
+      },
+      "cuba": {
+        "latitude": 22.0,
+        "longitude": -79.5
+      },
+      "dominican_republic": {
+        "latitude": 18.50012,
+        "longitude": -69.98857
+      },
+      "ecuador": {
+        "latitude": -1.3397667,
+        "longitude": -79.3666964
+      },
+      "el_salvador": {
+        "latitude": 13.68935,
+        "longitude": -89.18718
+      },
+      "french_guiana": {
+        "latitude": 4.93333,
+        "longitude": -52.33333
+      },
+      "french_polynesia": {
+        "latitude": -17.6797,
+        "longitude": -149.4068
+      },
+      "guadeloupe": {
+        "latitude": 16.265,
+        "longitude": -61.551
+      },
+      "guatemala": {
+        "latitude": 15.6356088,
+        "longitude": -89.8988086
+      },
+      "haiti": {
+        "latitude": 19.1399952,
+        "longitude": -72.3570971
+      },
+      "honduras": {
+        "latitude": 15.0610686,
+        "longitude": -84.5978533
+      },
+      "jamaica": {
+        "latitude": 18.16667,
+        "longitude": -77.25
+      },
+      "martinique": {
+        "latitude": 14.6415,
+        "longitude": -61.0242
+      },
+      "mexico": {
+        "latitude": 19.4325301,
+        "longitude": -99.1332101
+      },
+      "nicaragua": {
+        "latitude": 13.0,
+        "longitude": -85.0
+      },
+      "panama": {
+        "latitude": 8.3096067,
+        "longitude": -81.3066245
+      },
+      "peru": {
+        "latitude": -10.0,
+        "longitude": -75.25
+      },
+      "puerto_rico": {
+        "latitude": 18.2459121,
+        "longitude": -66.4164147
+      },
+      "saint_barthelemy": {
+        "latitude": 17.9049171,
+        "longitude": -62.847207
+      },
+      "suriname": {
+        "latitude": 4.1413025,
+        "longitude": -56.0771186
+      },
+      "usa": {
+        "latitude": 39.7837304,
+        "longitude": -100.4458824
+      },
+      "usvi": {
+        "latitude": 18.3378801,
+        "longitude": -64.8982827
+      },
+      "venezuela": {
+        "latitude": 8.0,
+        "longitude": -66.0
+      }
+    },
+    "region": {
+      "north_america": {
+        "latitude": 28.2367447,
+        "longitude": -97.738017
+      },
+      "oceania": {
+        "latitude": -25.0562891,
+        "longitude": 152.008576
+      },
+      "south_america": {
+        "latitude": -13.083583,
+        "longitude": -58.470721
+      }
+    }
+  },
+  "maintainer": [
+    "Alli Black",
+    "https://bedford.io/team/allison-black/"
+  ],
+  "panels": [
+    "tree",
+    "map"
+  ],
+  "title": "Real-time tracking of Zika virus evolution",
+  "updated": "09 Aug 2019",
+  "virus_count": 348
+}
