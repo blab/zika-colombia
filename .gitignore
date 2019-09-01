@@ -1,22 +1,22 @@
 
-scripts/\.ipynb_checkpoints/
-
 data/all_included_accessions\.xls
-
+data/colombia-seqs-only-strippedtoref-aligned\.fasta
 data/all_included_accessions\.csv
 
+# Snakemake logs #
 \.snakemake/metadata/
-
 \.snakemake/log/
-
-data/colombia-seqs-only-strippedtoref-aligned\.fasta
-
-manuscript/
-
+supplemental-analysis/rarefaction-curves/colombia/.snakemake/metadata/
+supplemental-analysis/rarefaction-curves/mexico/.snakemake/metadata/
+supplemental-analysis/rarefaction-curves/mexico/mex-replicate-*/.snakemake/metadata/
+supplemental-analysis/rarefaction-curves/colombia/col-replicate-*/.snakemake/metadata/
 supplemental-analysis/\.snakemake/metadata/
-
+supplemental-analysis/rarefaction-curves/*/*/results/
 supplemental-analysis/\.snakemake/log/
 
+
+# Jupyter notebook annoyingness #
+scripts/\.ipynb_checkpoints/
 *.ipynb_checkpoints
 .dropbox
 .DS_Store
@@ -41,4 +41,6 @@ Icon?
 *.out
 *.pdfsync
 
+# Manuscript (for now) #
+manuscript/
 2018-10-23-zika-colombia-manuscript\.md
